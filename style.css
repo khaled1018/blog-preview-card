@@ -18,7 +18,7 @@ body {
 main {
   border-radius: 20px;
   color: black;
-  width: 338px; /* Default width for screens wider than 430px */
+  width: 338px;
   background-color: white;
   align-content: center;
   padding: 24px;
@@ -26,10 +26,9 @@ main {
   box-shadow: 6px 6px 0px black;
 }
 
-/* Media query for screens less than 430px */
 @media (max-width: 429px) {
   main {
-    width: 265px; /* Width for smaller screens */
+    width: 265px;
   }
 }
 
