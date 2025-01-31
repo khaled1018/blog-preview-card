@@ -38,36 +38,51 @@ main {
   margin-bottom: 24px;
 }
 
+p,
+h4 {
+  line-height: 150%;
+}
+
+.blog-category,
+.blog-date,
+.blog-title,
+.blog-author {
+  color: rgb(17, 17, 17);
+}
+
+.blog-category,
+.blog-title,
+.blog-author {
+  font-family: "figtree-extra-bold", sans-serif;
+}
+
+.blog-category,
+.blog-author {
+  font-size: 0.875rem;
+}
+
 .blog-category {
   background: rgb(244, 208, 78);
-  color: rgb(17, 17, 17);
+
   padding: 0.167em 0.5em;
   width: fit-content;
-  font-family: "figtree-extra-bold", sans-serif;
+
   border-radius: 4px;
-  line-height: 150%;
-  font-size: 0.875rem;
   margin: 0;
 }
 
 .blog-date {
   font-family: "figtree-medium", sans-serif;
-  color: rgb(17, 17, 17);
-  line-height: 150%;
   font-size: 0.875rem;
 }
 
 .blog-title {
-  color: rgb(17, 17, 17);
   margin: 0;
   font-size: 1.5rem;
-  line-height: 150%;
-  font-family: "figtree-extra-bold", sans-serif;
 }
 
 .blog-details {
   font-family: "figtree-medium", sans-serif;
-  line-height: 150%;
   color: rgb(107, 107, 107);
   margin-bottom: 24px;
 }
@@ -77,10 +92,4 @@ main {
   width: 32px;
   height: 32px;
   vertical-align: middle;
-}
-
-.blog-author {
-  font-family: "figtree-extra-bold", sans-serif;
-  line-height: 150%;
-  font-size: 0.875rem;
 }
